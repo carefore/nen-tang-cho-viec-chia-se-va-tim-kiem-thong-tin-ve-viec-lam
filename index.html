@@ -1,0 +1,31 @@
+!DOCTYPE html
+html
+head
+  titleForm đăng thông tin việc làmtitle
+  link rel=stylesheet type=textcss href=styles.css
+head
+body
+
+  h2Đăng thông tin việc làmh2
+
+  form id=jobForm action=submit_job.php method=post
+    label for=jobTitleTiêu đề công việclabelbr
+    input type=text id=jobTitle name=jobTitlebr
+
+    label for=jobDescriptionMô tả công việclabelbr
+    textarea id=jobDescription name=jobDescriptiontextareabr
+
+    label for=companyCông tylabelbr
+    input type=text id=company name=companybr
+
+    input type=submit value=Đăng công việc
+  form
+
+  div id=jobList
+    !-- Danh sách công việc sẽ được hiển thị ở đây --
+  div
+
+  script src=httpscode.jquery.comjquery-3.6.0.min.jsscript
+  script src=scripts.jsscript
+body
+html

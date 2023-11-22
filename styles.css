@@ -1,0 +1,10 @@
+/* Định dạng cho form và danh sách công việc */
+#jobForm {
+  margin-bottom: 20px;
+}
+
+#jobList {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
